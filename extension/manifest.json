@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Android SDK Samples Search",
+  "description": "Adds a 'sample code' link for class references at developer.android.com.",
+  "version": "0.0.1",
+  "content_security_policy": "script-src 'self' https://developer.android.com; object-src 'self'",
+  "permissions": [
+    "tabs",
+    "*://developer.android.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://developer.android.com/reference/*"
+      ],
+      "js": [
+        "ref-inject-samples-search.js"
+      ]
+    }
+  ]
+}
