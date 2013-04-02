@@ -2,7 +2,8 @@
   "manifest_version": 2,
   "name": "Android SDK Samples Search",
   "description": "Adds a 'sample code' link for class references at developer.android.com.",
-  "version": "0.0.1",
+  "homepage_url": "https://github.com/jgilfelt/android-sdk-samples-search",
+  "version": "0.1.0",
   "content_security_policy": "script-src 'self' https://developer.android.com; object-src 'self'",
   "permissions": [
     "tabs",
