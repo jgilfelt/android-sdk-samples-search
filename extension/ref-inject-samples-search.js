@@ -18,7 +18,7 @@
 var _PACKAGE_DOC_URL_REGEX = /http(?:s)?:\/\/d(?:eveloper)?.android.com\/reference\/(.+)\/package-(summary|descr).html/;
 var _CLASS_DOC_URL_REGEX = /http(?:s)?:\/\/d(?:eveloper)?.android.com\/reference\/(.+).html/;
 
-var _GITHUB_SAMPLES_SEARCH_TEMPLATE = 'https://github.com/search?q=$QUERY+repo%3Aandroid%2Fplatform_development+extension%3Ajava&type=Code';
+var _GITHUB_SAMPLES_SEARCH_TEMPLATE = 'https://github.com/search?q=$QUERY+repo%3Aandroid%2Fplatform_development+repo%3Acommonsguy%2Fcw-omnibus+extension%3Ajava&type=Code';
 
 (function() {
   var url = window.location.href;
